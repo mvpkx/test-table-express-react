@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+  margin-bottom: 5px;
+}
+
+.select, .input {
+  border: 1px solid rgb(211, 211, 211);
+  background-color: white;
+  margin: 0px 5px;
+}
+
+.select {
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.input {
+  padding: 6px 6px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.text {
+  margin: 0px 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(46, 46, 46);
+  text-align: center;
+}
+
+.empty_option {
+  display: none;
+}
